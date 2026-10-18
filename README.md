@@ -30,7 +30,7 @@ gets different results. With them committed:
 
 ```bash
 # 1. From the root of your project, copy the files in
-git clone --depth 1 <REPO_URL> /tmp/cc-starter
+git clone --depth 1 https://github.com/teefayb/claude-code-team-starter /tmp/cc-starter
 cp /tmp/cc-starter/CLAUDE.md /tmp/cc-starter/.mcp.json .
 mkdir -p .claude && cp /tmp/cc-starter/.claude/settings.json .claude/
 cat /tmp/cc-starter/.gitignore >> .gitignore
