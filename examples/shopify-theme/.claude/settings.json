@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(shopify theme check *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "mcp__shopify-dev-mcp"
+    ],
+    "ask": [
+      "Bash(shopify theme push *)",
+      "Bash(shopify theme pull *)",
+      "Bash(git push *)"
+    ],
+    "deny": [
+      "Bash(shopify theme publish *)",
+      "Bash(shopify theme delete *)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+# Personal Claude Code files: each teammate keeps their own, never committed
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Secrets stay out of git
+.env
+.env.*
+!.env.example
